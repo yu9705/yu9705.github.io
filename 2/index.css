@@ -1,0 +1,123 @@
+body{
+	font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+.navBar {
+	background-color: transparent;
+    padding: 25px 0;
+    transition: padding .3s;
+    border: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    display: inline-block;
+}
+.navBar a{
+	color: #fec503;
+	background-color: transparent;
+	transition: all .3s;
+	font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+	float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 2em;
+    line-height: 20px;
+    text-decoration: none;
+}
+.navBar ul{
+	list-style: none;
+	float:right;
+	margin-top: 0;
+}
+.navBar ul li {
+	display: inline-block;
+}
+.navBar ul li a{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+header {
+    background-image: url(./header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+header .text{
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    color: white;
+    padding-top: 300px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header .heading{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-style: normal;
+    margin-top: 25px;
+}
+header .btn{
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+}
+section {
+    padding: 150px 0;
+}
+.ser h2{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.ser h3{
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 400;
+    margin-bottom: 75px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: #777;
+}
+.text-center {
+    text-align: center;
+    display: block;
+}
